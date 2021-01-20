@@ -41,7 +41,9 @@ namespace ClassMetotDemo
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
 
+            MusteriManager musteriManager = new MusteriManager();
 
+            musteriManager.musteriListele(musteriler);
 
         }
     }
